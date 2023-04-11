@@ -1,0 +1,17 @@
+{
+  "name": "demo-node-deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npm install -g pm2",
+    "production": "pm2 start server.js --name 2pai-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "http": "0.0.1-security"
+  }
+}
